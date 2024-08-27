@@ -38,3 +38,39 @@ Project Structure
     server.js: Node.js server that manages WebSocket connections and game state.
     gameLogic.js: Contains the core game logic on the server-side.
 
+
+
+Setup and Run Instructions
+Requirements
+
+    Node.js (for running the server)
+
+Setup
+
+    Clone the Repository
+
+
+Server Setup and Run Instructions
+
+Install Dependencies:
+
+npm install
+
+
+
+Run the Server:
+
+node server.js
+
+
+
+    The server will start on http://localhost:8080. Ensure the server is running before accessing the game in the browser.
+
+Client Setup and Run Instructions
+
+    Open the Game:
+        In your web browser, navigate to http://localhost:8080.
+        Open a second tab for multiplayer functionality.
+    Playing the Game:
+        Click the "Start Game" button to begin.
+        Follow the game logic described above to move characters and compete.
