@@ -64,7 +64,7 @@ node server.js
 
 
 
-    The server will start on http://localhost:8080. Ensure the server is running before accessing the game in the browser.
+    The server will start on http://localhost:8080. We have to ensure the server is running before accessing the game in the browser.
 
 Client Setup and Run Instructions
 
