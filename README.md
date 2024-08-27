@@ -1,6 +1,5 @@
 # chess_game
-Name : Ruchismita Pal
-Register No: 21BPS1152
+
 
 
 Overview
