@@ -1,0 +1,60 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Chess-like Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Advanced Chess-like Game</h1>
+    <div id="controls">
+        <button id="startGame">Start Game</button>
+    </div>
+    <div id="gameContainer">
+        <div id="game-board"></div>
+        <div id="playerControls">
+            <div id="currentPlayer">Current Player: <span id="currentPlayerName">A</span></div>
+            <div id="playerButtons">
+                <!-- Buttons for Player 1 -->
+                <button class="player1Button" data-player="A" data-char="P1">A-P1</button>
+                <button class="player1Button" data-player="A" data-char="P2">A-P2</button>
+                <button class="player1Button" data-player="A" data-char="H1">A-H1</button>
+                <button class="player1Button" data-player="A" data-char="H2">A-H2</button>
+                <button class="player1Button" data-player="A" data-char="P3">A-P3</button>
+
+                <!-- Buttons for Player 2 -->
+                <button class="player2Button" data-player="B" data-char="P1">B-P1</button>
+                <button class="player2Button" data-player="B" data-char="P2">B-P2</button>
+                <button class="player2Button" data-player="B" data-char="H1">B-H1</button>
+                <button class="player2Button" data-player="B" data-char="H2">B-H2</button>
+                <button class="player2Button" data-player="B" data-char="P3">B-P3</button>
+            </div>
+            <div id="selectedChar">Selected: None</div>
+            <div id="moveButtons">
+                <!-- Movement buttons -->
+                <button data-move="L">L</button>
+                <button data-move="R">R</button>
+                <button data-move="F">F</button>
+                <button data-move="B">B</button>
+                <button data-move="FL">FL</button>
+                <button data-move="FR">FR</button>
+                <button data-move="BL">BL</button>
+                <button data-move="BR">BR</button>
+            </div>
+        </div>
+    </div>
+    <div id="moveHistory">
+        <h2>Move History</h2>
+        <ul id="moveHistoryList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
